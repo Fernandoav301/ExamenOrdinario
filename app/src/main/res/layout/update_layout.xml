@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffff"
+        android:src="@mipmap/bienvenida"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Captura los siguientes datos: "/>
+    <EditText
+        android:id="@+id/nombre"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre del producto"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/precio"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="precio del producto"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/cantidad"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cantidad"
+        android:layout_marginTop="5dp"/>
+
+
+
+</LinearLayout>
